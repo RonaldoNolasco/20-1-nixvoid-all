@@ -9,3 +9,15 @@ npm install postcss-loader
 npm install @babel/core
 npm install html-webpack-plugin
 npm run start
+npm install vue
+npm install vue-template-compiler
+
+IDE: Webstorm / VSCode
+Package manager: npm, yarn
+bundler(empaquetador): webpack -> intenta agrupar archivos similares para reducir callbacks
+compilar: babel(vue-loader, vue-style-loader) -> unifica las diferentes versiones (no romper la web)
+regex, paths, rutas
+var, let, const
+style.css
+index.html
+index.js
