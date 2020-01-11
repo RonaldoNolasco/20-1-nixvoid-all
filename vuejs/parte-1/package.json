@@ -1,0 +1,25 @@
+{
+  "name": "parte-1",
+  "version": "1.0.0",
+  "description": "cpp del tio pio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack --mode=development",
+    "start": "webpack-dev-erver --mode=development --open",
+    "pro": "webpack --mode=production"
+  },
+  "author": "Shooter",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.7.7",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.2",
+    "postcss-loader": "^3.0.0",
+    "vue-loader": "^15.8.3",
+    "vue-style-loader": "^4.1.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
+}
