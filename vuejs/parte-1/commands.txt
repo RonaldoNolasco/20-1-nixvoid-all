@@ -7,3 +7,5 @@ npm install vue-style-loader
 npm install css-loader
 npm install postcss-loader
 npm install @babel/core
+npm install html-webpack-plugin
+npm run start
