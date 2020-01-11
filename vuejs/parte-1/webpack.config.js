@@ -1,4 +1,4 @@
-const path = require('path')
+const path = require('path');
 module.exports={
     entry: './src/app.js',
     output:{
@@ -9,7 +9,7 @@ module.exports={
         rules:[
             {
                 test: /\.js$/,
-                excludes: /node_modules/,
+                exclude: /node_modules/,
                 loader: 'babel-loader'
             },
             {
