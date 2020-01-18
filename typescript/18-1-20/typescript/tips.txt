@@ -1,0 +1,25 @@
+el dns(domain name system) es el enlace entre la ip publica con el dominio
+ip publica: x.x.x.x, dominio: google.com (sin la subnet)
+solo las pcs tienen lado del cliente, las demas iot se conectan con el internet
+gestor de paquetes: npm
+VCS: git
+build tool: webpack
+nodejs con nginx
+cliente -> front
+servidor -> back
+con el npm se puede poner @'version' y descargara esa en especifico
+front + end = full stack
+--save-dev -> dependencias de desarrollo
+-g -> instalacion global
+con npm install se descargan todos los paquetes si tiene el gitignore
+el ? en el regex significa que puede ser ts o tsx
+typescript esta regido al UML: function getFecha (a:string) :string{ }
+todo esta en la documentacion
+ts nombre.ts para compilar typsecript
+ts sirve principalmente para validar los tipos de datos, ya que js tiende a no comprobar errores
+
+tarea:
+crear un juego que acepte crear jugadores, dado un nombre, un nivel de poder 
+y un tipo (guerrero, medido, general), revisar enum
+funcion jugar que haga ganador a uno de los tres jugadores con mas nivel de poder aleatoriamente
+vue, ts, scss se compilan todos a html, css y js, para el front
