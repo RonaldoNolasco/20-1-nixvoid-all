@@ -1,0 +1,21 @@
+una interfaz es una clase que relaciona 2 aplicaciones
+el servidor de fb es el intermediario entre el cliente y el servidor de orce, hace un HTTP post a orcebot, que este a su vez conectaba con ORCE
+se da mediante una peticion HTTP al servidor, un response, este lo evalua y luego envia un response
+el webscrapping se encarga de 'desmenuzar' el html para poder obtener lo que queremos
+se almacena la sesion en tokens, antiguamente con cookies, estas sirven para mas cosas
+ajax: sync java and xml, SOAP: java
+peticiones: GET, POST, OPTIONS, HEAD, PATCH, DELETE, PUT
+templates de xml, json y html
+se puede aplicar al e-commerce, data science, job boards, marketing & sales, data jornalism, finance
+http 80, https 443
+herramientas:
+    python
+    beautifulsoap( xml, html parser)
+    cheerio (jquery for servers)
+    chrome developer tools
+    seleniumk,
+api key
+al separarlo por comas y pasarlo a csv, hace que se ordene en tablas y se puede pasar a xlsx
+location:"   ", para validar si ha iniciado sesion o no
+OCR
+como obtener la foto con un request
