@@ -99,6 +99,9 @@ for i in range(0,10):
                                 if(p.nombre==testadd):
                                     cod=p.codigo
                         print(codigo + " " + cod + " " + test)
+                        #print(codigo + ", " + cod + ", " + test)
                     else:
                         if(((i==0 or i==1) and j==0 and k==0 and l==0) or ((i==2 or i==3 or i==4 or i==5 or i==7 or i==9) and j==0 and k==0 and l==0) or ((i==2 or i==3 or i==4 or i==5 or i==7 or i==9) and j==5 and k==0 and l==0)): valido=True
                         else: valido=False
+#Usar esta pagina: https://www.online-utility.org/text/sort.jsp para invertirlo y luego se agrega
+#a la otra lista
