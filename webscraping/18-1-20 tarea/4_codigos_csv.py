@@ -1,6 +1,6 @@
 #El caracter salto de linea es solo un espacio, no dos
 print("codigo, especialidad, nombre")
-f = open("4_codigos_sql.txt","r")
+f = open("codigos_sql.txt","r")
 f1 = f.readlines()
 for i in range (0,len(f1)):
     x=f1[i].split()

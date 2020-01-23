@@ -64,7 +64,10 @@ array=[
     spec("S2", "INGENIERÍA DE HIGIENE Y SEGURIDAD INDUSTRIAL"),
     spec("S3", "INGENIERÍA AMBIENTAL"),
     ]
-#print(array[0].codigo)
+
+for x in array:
+    print(x.codigo + ", " + x.nombre)
+
 valido=True
 for i in range(0,10):
     if (i==0 or i==1):
