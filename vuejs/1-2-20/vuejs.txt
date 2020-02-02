@@ -1,0 +1,3 @@
+05, 0 es un octal
+v-bind, hace que todo atributo se vuelva dinámico, puedes usar variables 
+del data en su contenido, tambien pueden ser :
