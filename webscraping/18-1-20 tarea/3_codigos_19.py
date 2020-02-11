@@ -65,9 +65,6 @@ array=[
     spec("S3", "INGENIERÍA AMBIENTAL"),
     ]
 
-for x in array:
-    print(x.codigo + ", " + x.nombre)
-
 valido=True
 for i in range(0,10):
     if (i==0 or i==1):
