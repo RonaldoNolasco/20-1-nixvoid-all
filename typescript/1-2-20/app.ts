@@ -7,7 +7,35 @@ enum TipoJugador {
     general = 'general'
 }
 
-let listaJugadores: Array<Jugador> = [];
+let listaJugadores: Array<Jugador> = [
+    /*
+    {
+        nombre: "Ronaldo",
+        nivelPoder: 20,
+        tipoJugador: TipoJugador.guerrero
+    },
+    {
+        nombre: "Juan",
+        nivelPoder: 18,
+        tipoJugador: TipoJugador.general
+    },
+    {
+        nombre: "Cristhian",
+        nivelPoder: 15,
+        tipoJugador: TipoJugador.medico
+    },
+    {
+        nombre: "Jorge",
+        nivelPoder: 8,
+        tipoJugador: TipoJugador.guerrero
+    },
+    {
+        nombre: "Franz",
+        nivelPoder: 5,
+        tipoJugador: TipoJugador.medico
+    },
+    */
+];
 let btnAgregarJugador: HTMLElement = document.querySelector('#btnAgregarJugador');
 let btnJugar: HTMLElement = document.querySelector('#btnJugar');
 let btnActualizar: HTMLElement = document.querySelector('#btnActualizar');
@@ -30,6 +58,7 @@ function getRandomInt(max) {
 function jugar() {
     let listaOrdenada: Array<Jugador> = listaJugadores
     listaOrdenada.sort((a, b) => a.nivelPoder - b.nivelPoder).reverse();
+    //listaOrdenada.sort((a, b) => b.nivelPoder - a.nivelPoder);
     let indice = getRandomInt(3);
     let ganadorHTML: HTMLUListElement = document.querySelector('#ganador');
     ganadorHTML.innerHTML = '';
