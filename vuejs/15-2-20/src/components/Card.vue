@@ -35,6 +35,7 @@ export default {
 
 <style lang="scss">
 .card{
+    /*
     display: flex; //Para que se muestre la imagen al costado
     flex-direction: row; 
     border: 2px red solid; //Longitud, color y tipo de borde
@@ -52,6 +53,22 @@ export default {
         flex-direction: column;
         justify-content: center;
         flex-basis: 50%
+    }
+    */
+    display: flex;
+    flex-direction: row;
+    border: 2px red solid;
+    border-radius: 15px;
+    .card-image{
+        display: flex;
+        flex-direction: row; 
+        flex-basis: 20%;
+    }
+    .card-description{ 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-basis: 80%;
     }
 }
 </style>
