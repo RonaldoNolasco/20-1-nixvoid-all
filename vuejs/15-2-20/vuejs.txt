@@ -1,3 +1,4 @@
 npm i -D sass-loader node-sass
 https://vue-loader.vuejs.org/guide/pre-processors.html#sass
 si sale error de compilacion por el scss volverlo a lanzar
+modelos mentales
