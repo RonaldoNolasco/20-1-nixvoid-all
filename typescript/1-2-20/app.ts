@@ -8,7 +8,6 @@ enum TipoJugador {
 }
 
 let listaJugadores: Array<Jugador> = [
-    /*
     {
         nombre: "Ronaldo",
         nivelPoder: 20,
@@ -34,11 +33,13 @@ let listaJugadores: Array<Jugador> = [
         nivelPoder: 5,
         tipoJugador: TipoJugador.medico
     },
-    */
+    //Se puede comentar si quieres
 ];
 let btnAgregarJugador: HTMLElement = document.querySelector('#btnAgregarJugador');
 let btnJugar: HTMLElement = document.querySelector('#btnJugar');
 let btnActualizar: HTMLElement = document.querySelector('#btnActualizar');
+
+actualizarListaJugadores();
 
 class Jugador {
     nombre: string
