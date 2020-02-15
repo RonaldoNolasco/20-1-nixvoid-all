@@ -1,1 +1,10 @@
 `Mi edad es: ${alumno.edad} `
+git stash
+git checkout -b "rama" -> El -b crea la rama
+git stash pop
+git add .
+git commit
+git checkout master
+git pull
+
+git reset --hard
