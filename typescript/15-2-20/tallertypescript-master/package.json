@@ -1,0 +1,23 @@
+{
+  "name": "demo-typescript",
+  "version": "1.0.0",
+  "description": "Un ejemplo de Typescript ",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development"
+  },
+  "keywords": [
+    "typescript",
+    "demo",
+    "taller"
+  ],
+  "author": "misaelabanto",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
+}
