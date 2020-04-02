@@ -1,6 +1,6 @@
 #El caracter salto de linea es solo un espacio, no dos
 print("codigo, especialidad, nombre")
-f = open("8_codigos_20.txt","r")
+f = open("codigos_20_inv.txt","r")
 f1 = f.readlines()
 for i in range (0,len(f1)):
     x=f1[i].split()

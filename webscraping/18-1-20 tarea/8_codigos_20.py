@@ -41,3 +41,6 @@ while i<10000:
         i=((i//500)+1)*500
     else:
         i+=1
+
+#Usar esta pagina: https://www.online-utility.org/text/sort.jsp para invertirlo y luego se agrega
+#a la otra lista
