@@ -14,8 +14,9 @@ def obtenerCodigoUNI(codigoUNI):
     for i in range(len(cod)):
         suma += int(cod[i]) * arr[i]
     return (cod + chr(65 + suma % 11))
+
 inicio = int(input("Ingrese el año inicial: "))
-fin = int(input("Ingrese el año final:"))
+fin = int(input("Ingrese el año final: "))
 for anio in range(inicio, fin+1):
     i=0
     while i<10000:
