@@ -4,7 +4,7 @@ import urllib3
 import json
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-with open('6_esp.json', 'r') as f:
+with open('6_esp.json', 'r', encoding='utf-8') as f:
     json = json.load(f)
 
 def obtenerCodigoUNI(codigoUNI):
